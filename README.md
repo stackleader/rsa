@@ -9,3 +9,15 @@ Credit is also owed to the Eclipse communications framework gRPC [implementation
 a service proxy for gRPC service.  
 
 This code is and will always remain fully open source, and licensed under the Apache 2 license [link](http://www.apache.org/licenses/LICENSE-2.0).
+
+
+Implementation Details:
+It turns out that gRPC is not the best fit for an RSA implementation for a number of reasons, but this entire RSA implementation started as an experiment to explore how feasible it was to implement
+an RSA implementation that would be capable of supported gRPC services, so it hasn't been abandoned yet. The ECF gRPC implementation was actually discovered after this implementation had begun, 
+and its great to see others sharing some of our own interest/ideas in blending these two great technologies.  
+
+I see two possible paths forward for this work:
+
+1. It may be something we continue to develop into a more mature RSA implementation with multiple transport implementation options, our own topology manager, and distribution providers... ect.
+2. We will abandon this implementation as a fun experiment and simply adopt the Aries implementation and contribute to their project.
+
