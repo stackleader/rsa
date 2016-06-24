@@ -13,7 +13,7 @@ This code is and will always remain fully open source, and licensed under the Ap
 
 Implementation Details:
 It turns out that gRPC is not the best fit for an RSA implementation for a number of reasons, but this entire RSA implementation started as an experiment to explore how feasible it was to implement
-an RSA implementation that would be capable of supported gRPC services, so it hasn't been abandoned yet. The ECF gRPC implementation was actually discovered after this implementation had begun, 
+an RSA implementation that would be capable of supporting gRPC services, so it hasn't been abandoned yet. The ECF gRPC implementation was actually discovered after this implementation had begun, 
 and its great to see others sharing some of our own interest/ideas in blending these two great technologies.  
 
 I see two possible paths forward for this work:
