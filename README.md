@@ -8,4 +8,4 @@ and create an abstraction similar to their "DistributionProviders" where multipl
 Credit is also owed to the Eclipse communications framework gRPC implementation [link](https://github.com/ECF/grpc-RemoteServicesProvider)authors for some of the details of how to create
 a service proxy for gRPC service.  
 
-This code is and will always remain fully open source, and licensed under the Apache 2 license (link)[http://www.apache.org/licenses/LICENSE-2.0].
+This code is and will always remain fully open source, and licensed under the Apache 2 license [link](http://www.apache.org/licenses/LICENSE-2.0).
